@@ -1,0 +1,5 @@
+# -*- mode: python -*-
+import os, sys
+Import('env')
+SConscript('common/SConscript', 'env')
+

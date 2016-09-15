@@ -1,0 +1,5 @@
+#ifndef TINDEX_ERRORCODE_H_
+#define TINDEX_ERRORCODE_H_
+
+
+#endif /*TINDEX_ERRORCODE_H_*/

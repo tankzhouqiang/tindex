@@ -1,0 +1,13 @@
+# -*- mode: python -*-
+Import('env')
+env.MergeFlags('-I.')
+
+lib_common_sources = [
+    'SimpleTest.cpp',
+    ]
+
+env.SharedLibrary(target = 'common',
+                  source = lib_common_sources,
+                  CPPPATH = env['install_root'])
+
+#SConscript('test/SConscript', 'env')
